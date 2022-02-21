@@ -1,0 +1,11 @@
+temp = input('几的阶乘？')
+inp = int(temp)
+b = 1
+while True:
+    if b <= inp:
+        b = b * (b+1)
+        return b
+    else:
+        break
+print(b)
+

@@ -1,0 +1,125 @@
+#################################
+
+Readme to see Sichao(Tommy) Bi's 15-112 term project: Plants vs. Zombie game
+Includes a detailed description of the game and functionalities, features, etc. 
+Created: 08/07/2021
+
+
+#################################
+
+#################################
+
+Game Description: 
+
+    As a classic tower defense game, the goal of the game is to survive the 
+incoming zombie attacks by planting plants, the main “tower” to defeat zombies.
+
+    A player can buy and plant plants using suns, which can be collected from
+buying sunflowers
+
+    A player loses the round, or dies, however, when a zombie gets to the house 
+(assuming the lawn mower on that row is already used). 
+    “The zombies ate your brain!!!”
+
+    To win the round, a player must survive without dying. 
+
+    Good luck on helping the adorable plants and the humans to defeat the zombies!
+
+    P.S. The game screen is NOT resizeable.
+
+#################################
+
+Three different screens 
+
+    Loading Screen: classic pvz1 loading screen, press any button to move on
+
+    Menu screen: Single Player (p v c)
+                 Can also enter player name on thr top left corner
+                 by pressing "n"
+
+    Game Play:
+
+            Plant slots: located on top of the screen with pink outline
+
+                By clicking on the grid and then one valid, 
+                user can plant different plants onto the lawn
+
+            Grids: outlined by brown lines
+            Random maps: user can change background be pressing "n"
+            User can go back to the menu by pressing "m"
+            User can press "r" to restart the game
+            Can enter secret commands: "b" to kill all zombies!
+
+
+Algorithmic Plan:
+
+    Plant Class with plant stats  -- most complex, yet top be done
+    Zombie class with zombie stats
+
+    Menu screen mode
+
+    StartScreen mode
+
+
+
+###################################
+
+TP2 UPDATE
+
+###################################
+
+
+What has changed:
+
+    Now there are five different types of zombies
+
+    Now user can click inside of the slots grid to choose a plant to plant
+
+    Fixed some bugs when bullet hit zombies 
+
+    For now, to fire a bullet from a plant, a player needs to click on it
+
+
+Algotithmic Plan:
+
+    To make projectile a way for a plant to attack zombies 
+
+        - I'm working on it
+
+    To make a DFS/Dijkstra algorithm for the "smart zombie" (yellow ones)
+so that these zombies can find the shortest distance to the other side of the lawn
+
+        - Also working on it
+
+        I have written some codes for the basic part of these two algorithms 
+
+
+    AFTER MVP:
+        add in the sprite sheets for each plant
+
+
+
+###################################
+
+TP3 UPDATE
+
+###################################
+
+
+What has changed:
+
+    Now there are 4 different zombies and 3 different plants(with images)
+
+    A projectile will be launched from cabbagepult
+
+    Added in a game over screen
+
+    Minor bug fixes and use dictionaries instead of lists to store zombies and plants
+
+    Changed the url for all of the images 
+    
+
+
+
+
+
